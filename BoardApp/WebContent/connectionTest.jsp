@@ -16,7 +16,7 @@
 		Context initCtx = new InitialContext();
 		
 		// 1. initCtx객체의 lookup메소드를 이용해서 "java:comp/env"에 해당하는 InitialContext 객체를 찾아서...
-		// envCtx에 삽입
+		// envCtx에 삽입 ________________
 // 		Context envCtx = (Context) new InitialContext("java:comp/env");
 		// InitialContext()객체는 웹어플리케이션이 처음으로 배치될 때 설정되고,
 		// 모든 설정된 자원은 JNDI namespace 공간의 java:comp/env 경로 부분에 놓이게 됩니다.
